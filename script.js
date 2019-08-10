@@ -17,16 +17,13 @@ async function translate (text,lang){
 const showTranslation = () => {
   const tag = document.querySelector('#demo1');
   translate(tag.innerHTML,'zh').then(data => {
-    return data.text[0];
+    tag.innerHTML = data.text[0];
   })
 }
 
-
-
-
-
-
-anime({
-  targets:'#demo1',
-  translateX: 250
+var loopAlternate = anime({
+  targets: '#loopAlternate .pokemon',
+  translateX: 250,
+  loop: 10,
+  direction: 'alternate'
 });
