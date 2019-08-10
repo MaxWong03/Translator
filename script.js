@@ -22,12 +22,12 @@ var functionBasedPropVal = anime({
     return el.getAttribute('data-x');
   },
   translateY: function(el, i) {
-    return 50 + (-50 * i);
+    return 100 + (-100 * i);
   },
   scale: function(el, i, l) {
     return (l - i) + .25;
   },
-  rotate: function() { return anime.random(-360, 360); },
+  rotate: 20,
   duration: function() { return anime.random(1200, 1800); },
   duration: function() { return anime.random(800, 1600); },
   delay: function() { return anime.random(0, 1000); },
