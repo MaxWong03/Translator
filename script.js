@@ -1,4 +1,5 @@
 
+
 //Translate function
 async function translate (text,lang){
   const key = 'trnsl.1.1.20190809T190304Z.e2847c7e39a1bd65.4540cb358a217b65136cfb4287772ae03d1e2cb6';
@@ -23,3 +24,9 @@ const showTranslation = () => {
 
 
 
+
+
+anime({
+  targets:'#demo1',
+  translateX: 250
+});
