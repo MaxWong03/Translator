@@ -1,4 +1,19 @@
-/* .pokemon{
-  display: flex;
-  flex-direction: column;
-} */
+.body{
+  display: grid;
+  justify-content: center;
+}
+
+#loopAlternate{
+  display:grid;
+  justify-items: center;
+}
+
+#specificUnitValue{
+  display:grid;
+  justify-items: center;
+}
+
+#functionBasedPropVal{
+  display:grid;
+  justify-items: center;
+}
